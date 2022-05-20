@@ -58,10 +58,30 @@ var user = {
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// 6. use object deconstruction and the rest operator to transform the following array into 3 variables: name, age, and food. 
+// 6. use object destructuring and the rest operator to transform the following array into 3 variables: name, age, and food. 
 //    the food variable should have all the array items starting from the third one.
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 const data = ['peter', '34', 'apple', 'oranges', 'pizza', 'tacos'];
 
 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 7. use object destructuring to grab the following from the userData object: 
+// - The user's name and in a constant named userName.
+// - The user's facorite food array and name it favoriteFood.
+// - The users first favorite thing (cars) and name it favoriteThing
+// - The users second favorite thing (jewelry) and name it secondfavoriteThing
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+const userData = {
+  name: 'Peter',
+  favorites: {
+    needs: {
+      food:  ['burger', 'pizza', 'tacos', 'fried chicken', 'sushi'],
+    },
+    wants: {
+      things: ['cars', 'jewelry'],
+    },
+  },
+};
 
